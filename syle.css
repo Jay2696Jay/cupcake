@@ -1,0 +1,328 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+}
+
+body {
+    color: azure;
+    /* background: pink; */
+    background: wheat;
+    font-family: monospace;
+    line-height: 1.5;
+    cursor: pointer;
+
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* header input{
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+} 
+header img{
+    width: 70px;
+    height: 60px;
+    margin: auto;
+}*/
+
+
+.bow {
+    color: rgb(67, 67, 41);
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 50px;
+    border-radius: 30px;
+    color: rgb(104, 104, 70);
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+
+.me{
+    margin-left: -100px;
+}
+
+.bo {
+    background: palevioletred;
+    padding: 10px;
+    border-width: 2px;
+    font-size: 3rem;
+    margin: 0px 5px;
+    border-style: solid;
+    border-radius: 50px;
+
+
+}
+
+#logo {}
+
+a {
+    text-decoration: none;
+}
+
+div img {
+    display: inline-block;
+    margin: 30px;
+}
+
+.inner {
+    width: 90%;
+    line-height: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-right: 0 20px;
+    line-height: 50px;
+    margin-bottom: 60px;
+}
+
+.inner img{
+    float: left;
+}
+
+
+.mine {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+.mine a{
+    color: rgb(67, 67, 41);
+}
+
+ul {
+    list-style: none;
+    line-height: 40px;
+    justify-content: center;
+    display: block;
+}
+
+li {
+    padding: 0px 20px;
+}
+
+/* .test {
+    object-fit: contain;
+} */
+
+.him{
+    line-height: 60px;
+}
+
+
+
+/* start of products */
+
+.products{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 95%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.products a{
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.products img{
+    border-radius: 150px;
+}
+
+.feat{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.vev{
+    justify-content: center;
+    text-align: center;
+    margin-right: 80px;
+}
+.blu{
+    width: 70%;
+    margin-left: 80px;
+}
+
+
+.van{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.choc{
+    
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+/* end of products */
+
+/*for contact*/
+.bud {
+    background: pink;
+}
+
+
+.our{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    line-height: 40px;
+}
+
+.our a{
+    color: whitesmoke;
+    font-size: 14px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsiveness */
+
+
+@media screen and (max-width:800px) {
+
+
+    
+
+    .match{
+        margin-top: 40px;
+    }
+
+    .bow{
+        margin: auto;
+        border-width: 10px;
+        padding: 10px;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .inner{
+        width: 70%;
+        margin: auto;
+        padding: 20px 40px 20px 40px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .inner img{
+        float: none;
+        margin: auto;
+    }
+
+    .products{
+        display: block;
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .vev{
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .blu{
+        width: 100%;
+        margin: auto;
+    }
+
+    .choc {
+        width: 100%;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .van{
+        width: 100%;
+        margin: auto;
+    }
+
+    .our{
+        width: 95%;
+        font-size: 15px;
+    }
+
+
+    
+} 
+
+
+
+
+
+@media screen and (min-width:800px) and (max-width:1200px){
+
+    .inner{
+        width: 80%;
+    }
+
+    .products{
+        display: block;
+    }
+
+    .vev{
+        margin: auto;
+        width: 90%;
+        margin-top: 60px;
+    }
+
+    .blu{
+        margin: auto;
+    }
+    
+    .van{
+        width: 60%;
+        margin: auto;
+    }
+
+    .choc{
+        width: 60%;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .our{
+        width: 90%;
+    }
+
+}
